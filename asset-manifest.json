@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/instagram-access-token-generator/static/css/main.8393f859.chunk.css",
-    "main.js": "/instagram-access-token-generator/static/js/main.ce32d633.chunk.js",
-    "main.js.map": "/instagram-access-token-generator/static/js/main.ce32d633.chunk.js.map",
+    "main.css": "/instagram-access-token-generator/static/css/main.dd8dc6f1.chunk.css",
+    "main.js": "/instagram-access-token-generator/static/js/main.ffa7e05e.chunk.js",
+    "main.js.map": "/instagram-access-token-generator/static/js/main.ffa7e05e.chunk.js.map",
     "runtime~main.js": "/instagram-access-token-generator/static/js/runtime~main.10922afe.js",
     "runtime~main.js.map": "/instagram-access-token-generator/static/js/runtime~main.10922afe.js.map",
     "static/js/2.fd23e47a.chunk.js": "/instagram-access-token-generator/static/js/2.fd23e47a.chunk.js",
     "static/js/2.fd23e47a.chunk.js.map": "/instagram-access-token-generator/static/js/2.fd23e47a.chunk.js.map",
     "index.html": "/instagram-access-token-generator/index.html",
-    "precache-manifest.6f4c47336dfbede2d16973838653dfa8.js": "/instagram-access-token-generator/precache-manifest.6f4c47336dfbede2d16973838653dfa8.js",
+    "precache-manifest.8693457748eb261d3291b851dba8694d.js": "/instagram-access-token-generator/precache-manifest.8693457748eb261d3291b851dba8694d.js",
     "service-worker.js": "/instagram-access-token-generator/service-worker.js",
-    "static/css/main.8393f859.chunk.css.map": "/instagram-access-token-generator/static/css/main.8393f859.chunk.css.map"
+    "static/css/main.dd8dc6f1.chunk.css.map": "/instagram-access-token-generator/static/css/main.dd8dc6f1.chunk.css.map"
   }
 }
