@@ -1,15 +1,20 @@
 import React from 'react';
 
-import { BrowserRouter, Route } from "react-router-dom";
+import { Router } from "@reach/router"
 
 import style from  './App.module.css';
 import { Generator } from './Generator';
+
 import { Parser } from './Parser';
+import { PATHS } from '../utils/constants';
 
 function App() {
   return (
     <div className={style.app}>
-        <Generator />
+    <Router>
+      <Generator path={PATHS.GENERATOR} />
+      <Parser path={PATHS.PARSER} />
+    </Router>
     </div>
   );
 }

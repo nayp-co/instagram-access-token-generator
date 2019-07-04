@@ -14,7 +14,6 @@ function Generator() {
     requestTokenUrl(input)
       .then(resp => {
         window.location = `${resp.url}${HASH.ACCESS_TOKEN}`;
-        //window.location.reload();
       });
   }
 
@@ -52,6 +51,10 @@ function Generator() {
           href="https://weblizar.com/get-instagram-client-id/">
           Client Id
         </a>
+
+        <span className={style.version}>
+          1.0.0
+        </span>
       </footer>
     </div>
   );

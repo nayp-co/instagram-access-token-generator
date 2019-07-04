@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://nayp-co.github.io/instagram-access-token-generator/",
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "gh-pages": "^2.0.1",
     "history": "^4.9.0",
     "react": "^16.8.6",

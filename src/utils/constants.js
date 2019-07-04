@@ -1,5 +1,5 @@
 const PATHS = Object.freeze({
-  GENERATOR: 'generator',
+  GENERATOR: '/',
   PARSER: 'parser',
 });
 
