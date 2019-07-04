@@ -7,3 +7,12 @@
   align-items: center;
   justify-content: center;
 }
+
+.dialog {
+  width:         var(--dialog-width);
+  height:        var(--dialog-height);
+  background:    var(--other);
+  padding:       var(--space-large);
+  border-radius: var(--radius);
+  box-sizing:    border-box;
+}

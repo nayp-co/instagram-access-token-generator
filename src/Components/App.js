@@ -11,10 +11,12 @@ import { PATHS } from '../utils/constants';
 function App() {
   return (
     <div className={style.app}>
-    <Router>
-      <Generator path={PATHS.GENERATOR} />
-      <Parser path={PATHS.PARSER} />
-    </Router>
+      <div className={style.dialog}>
+        <Router>
+          <Generator path={PATHS.GENERATOR} />
+          <Parser path={PATHS.PARSER} />
+        </Router>
+      </div>
     </div>
   );
 }
