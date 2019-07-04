@@ -9,12 +9,7 @@ import { Parser } from './Parser';
 function App() {
   return (
     <div className={style.app}>
-      <BrowserRouter>
-        <div>
-          <Route path="/" component={Generator} />
-          <Route path="/parser" component={Parser} />
-        </div>
-      </BrowserRouter>
+        <Generator />
     </div>
   );
 }
