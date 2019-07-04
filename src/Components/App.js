@@ -1,25 +1,22 @@
 import React from 'react';
 
-import { Router, Route } from "react-router";
-import { createBrowserHistory } from "history";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import style from  './App.module.css';
 import Generator from './Generator';
 import Parser from './Parser';
 
-const history = createBrowserHistory()
-
 function App() {
   return (
     <div className={style.app}>
-      <Router history={history}>
+      <BrowserRouter>
         <div>
           <Route path="/" exact component={Generator} />
           <Route path="/parser" exact component={Parser} />
         </div>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
 
-export default App;
+export { App };
