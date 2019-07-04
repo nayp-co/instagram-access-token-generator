@@ -1,9 +1,10 @@
-import { checkHost } from "./host";
-import { PATHS } from "./constants";
+import { checkHost, checkPath } from "./host";
 
 const requestTokenUrl = clientId => {
 
-  const redirectUri = `${checkHost()}/${PATHS.PARSER}`
+  const PATH = checkPath()
+
+  const redirectUri = `${checkHost()}/${PATH.PARSER}`
 
   const url =
         'https://api.instagram.com/oauth/authorize/?client_id='

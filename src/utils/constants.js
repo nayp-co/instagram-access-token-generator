@@ -1,6 +1,11 @@
-const PATHS = Object.freeze({
+const PATHS_DEV = Object.freeze({
   GENERATOR: '/',
-  PARSER: 'parser',
+  PARSER: '/parser',
+});
+
+const PATHS_PROD = Object.freeze({
+  GENERATOR: `${process.env.PUBLIC_URL}/`,
+  PARSER: `${process.env.PUBLIC_URL}/parser`,
 });
 
 const PROTOCOL = Object.freeze({
@@ -12,7 +17,8 @@ const HASH = Object.freeze({
 })
 
 export {
-  PATHS,
+  PATHS_DEV,
+  PATHS_PROD,
   PROTOCOL,
   HASH
 };

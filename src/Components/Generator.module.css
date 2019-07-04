@@ -4,5 +4,40 @@
 }
 
 .header {
-  
+  color: var(--brand);
+  font-size: var(--size-title);
+  margin-bottom: var(--space-large);
+  font-weight: bold;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.label {
+  font-size: small;
+  color: var(--brand);
+  opacity: 0.6;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: var(--space-small);
+}
+
+.input {
+  border: var(--border);
+  height: 40px;
+  padding: var(--space-base);
+  box-sizing: border-box;
+}
+
+.button {
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: var(--space-base) 0;
+  border: 0;
+  background: var(--brand);
+  color: var(--other);
 }

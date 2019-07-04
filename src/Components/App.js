@@ -1,21 +1,30 @@
 import React from 'react';
 
-import { Router } from "@reach/router"
+import { HashRouter as Router, Route } from "react-router-dom";
 
 import style from  './App.module.css';
 import { Generator } from './Generator';
 
 import { Parser } from './Parser';
-import { PATHS } from '../utils/constants';
+import { checkPath } from '../utils/host';
 
 function App() {
+
+  const PATH = checkPath();
+
   return (
     <div className={style.app}>
       <div className={style.dialog}>
-        paths
         <Router>
-          <Generator path={`${process.env.PUBLIC_URL}${PATHS.GENERATOR}`} />
-          <Parser path={`${process.env.PUBLIC_URL}${PATHS.PARSER}`} />
+          <Route
+            exact
+            component={Generator}
+            path={PATH.GENERATOR}
+          />
+          <Route
+            component={Parser}
+            path={PATH.PARSER}
+          />
         </Router>
       </div>
     </div>

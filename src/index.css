@@ -1,7 +1,7 @@
 :root {
   --brand: #282c34;
   --other: white;
-  --grey: #efefdf;
+  --grey: #cacfcc;
 
   --radius: 5px;
 
@@ -9,7 +9,7 @@
   --space-small: 4px;
   --space-large: 35px;
 
-  --size-title: 2rem;
+  --size-title: 1.4rem;
   --size-body: 1rem;
   --size-small: .8rem;
 
