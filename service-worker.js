@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/instagram-access-token-generator/precache-manifest.62911abd97ce5586b465585f6a0173d1.js"
+  "/instagram-access-token-generator/precache-manifest.0d4cb69ab5a170eb544ad82c29d560ae.js"
 );
 
 self.addEventListener('message', (event) => {
