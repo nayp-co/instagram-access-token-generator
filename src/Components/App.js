@@ -11,8 +11,8 @@ function App() {
     <div className={style.app}>
       <BrowserRouter>
         <div>
-          <Route path="/" exact component={Generator} />
-          <Route path="/parser" exact component={Parser} />
+          <Route path="/" component={Generator} />
+          <Route path="/parser" component={Parser} />
         </div>
       </BrowserRouter>
     </div>
