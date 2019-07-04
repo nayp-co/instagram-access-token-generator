@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "225356963e1c0d8cfe2e5fec08e3813e",
+    "revision": "d3f64fade2e52c37713cc7d6ea5f60e8",
     "url": "/instagram-access-token-generator/index.html"
   },
   {
-    "revision": "a5824356e44fc9f6c2ed",
+    "revision": "3f81c9d486c94e063733",
     "url": "/instagram-access-token-generator/static/css/main.ed2ec686.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/instagram-access-token-generator/static/js/2.229649fb.chunk.js"
   },
   {
-    "revision": "a5824356e44fc9f6c2ed",
-    "url": "/instagram-access-token-generator/static/js/main.7537a3dd.chunk.js"
+    "revision": "3f81c9d486c94e063733",
+    "url": "/instagram-access-token-generator/static/js/main.f1a2b63c.chunk.js"
   },
   {
     "revision": "73a6acbf26390e41ddcd",
