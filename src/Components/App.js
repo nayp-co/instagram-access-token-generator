@@ -12,9 +12,10 @@ function App() {
   return (
     <div className={style.app}>
       <div className={style.dialog}>
+        paths
         <Router>
-          <Generator path={PATHS.GENERATOR} />
-          <Parser path={PATHS.PARSER} />
+          <Generator path={`${process.env.PUBLIC_URL}${PATHS.GENERATOR}`} />
+          <Parser path={`${process.env.PUBLIC_URL}${PATHS.PARSER}`} />
         </Router>
       </div>
     </div>
