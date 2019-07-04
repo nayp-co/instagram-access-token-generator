@@ -3,8 +3,8 @@ import React from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
 
 import style from  './App.module.css';
-import Generator from './Generator';
-import Parser from './Parser';
+import { Generator } from './Generator';
+import { Parser } from './Parser';
 
 function App() {
   return (

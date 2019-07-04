@@ -12,4 +12,4 @@ function Parser() {
   );
 }
 
-export default Parser;
+export { Parser };

@@ -57,4 +57,4 @@ function Generator() {
   );
 }
 
-export default Generator;
+export { Generator };
